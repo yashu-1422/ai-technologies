@@ -1,0 +1,59 @@
+/* Improve card hover effect */
+.card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+/* Make navbar brand text more readable */
+.navbar-brand span {
+    letter-spacing: 1px;
+}
+
+/* Footer improvements */
+footer {
+    font-size: 1rem;
+    background: linear-gradient(90deg, #0d6efd 60%, #0a58ca 100%);
+}
+
+/* Responsive image for hero and cards */
+img.card-img-top,
+section .container img,
+.hero-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+/* Team member images */
+.card .rounded-circle {
+    border: 3px solid #0d6efd;
+    box-shadow: 0 2px 12px rgba(13,110,253,0.15);
+}
+
+/* Section spacing */
+section, .container.my-5 {
+    margin-bottom: 2.5rem;
+}
+
+/* Button style */
+.btn-primary {
+    background: linear-gradient(90deg, #0d6efd 60%, #0a58ca 100%);
+    border: none;
+    transition: background 0.2s;
+}
+.btn-primary:hover, .btn-primary:focus {
+    background: linear-gradient(90deg, #0a58ca 60%, #0d6efd 100%);
+}
+
+/* Contact form spacing */
+form .form-control {
+    border-radius: 0.5rem;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+form .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13,110,253,.15);
+}
