@@ -54,3 +54,5 @@ AI WEB-Technologies/
 ## License
 
 This project is for educational and demonstration purposes.
+
+netlify - https://steady-yeot-aa632a.netlify.app/
