@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI TECHNOLOGIES</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap"
+        rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Hero Section as background */
+        .hero-section {
+            position: relative;
+            width: 100%;
+            min-height: 480px;
+            background: url('assets/images/heero1.avif') center center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 32, 64, 0.45);
+            z-index: 1;
+            border-radius: 0 0 1.5rem 1.5rem;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            padding: 6rem 1rem 5rem 1rem;
+        }
+
+        .hero-content h1,
+        .hero-content p {
+            color: #fff;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+        }
+
+        .hero-content .btn {
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+        }
+
+        @media (max-width: 1000px) {
+            .hero-section {
+                min-height: 320px;
+            }
+
+            .hero-content {
+                padding: 3rem 0.5rem 2.5rem 0.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary w-100">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="home.html">
+                <img src="assets/logos/logo.png" alt="Logo" width="48" height="40" class="d-inline-block align-middle me-2">
+                <span class="fw-bold fs-4">AI-Tech</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    <a class="nav-link" href="services.html">Services</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
+                    <a class="nav-link" href="about.html">About us</a>
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section mb-5">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="display-4 fw-bold">Welcome to AI-Tech</h1>
+            <p class="lead">Innovative AI solutions for your business needs.</p>
+            <a href="services.html" class="btn btn-primary btn-lg mt-3">Explore Our Services</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="container py-5">
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="assets/images/ai-consulting.avif" class="card-img-top" alt="AI Consulting">
+                    <div class="card-body">
+                        <h5 class="card-title">AI Consulting</h5>
+                        <p class="card-text">Expert guidance to integrate AI into your business processes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="assets/images/standard-quality-control-concept-m.jpg" class="card-img-top" alt="Custom Solutions">
+                    <div class="card-body">
+                        <h5 class="card-title">Custom Solutions</h5>
+                        <p class="card-text">Tailored AI solutions to solve your unique challenges.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="assets/images/24-7.avif" class="card-img-top" alt="Support">
+                    <div class="card-body">
+                        <h5 class="card-title">24/7 Support</h5>
+                        <p class="card-text">Dedicated support to ensure your AI systems run smoothly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Start -->
+    <footer class="bg-primary text-white pt-4 pb-2 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 mb-3 mb-md-0 text-center text-md-start">
+                    <a href="home.html" class="text-white text-decoration-none">
+                        <img src="assets/logos/logo.png" alt="Logo" width="40" height="32" class="me-2 align-middle">
+                        <span class="fw-bold fs-5 align-middle">AI-Tech</span>
+                    </a>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0 text-center">
+                    <a href="home.html" class="text-white text-decoration-none me-3">Home</a>
+                    <a href="services.html" class="text-white text-decoration-none me-3">Services</a>
+                    <a href="projects.html" class="text-white text-decoration-none me-3">Projects</a>
+                    <a href="contact.html" class="text-white text-decoration-none">Contact</a>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <small>&copy; 2025 AI-Tech. All rights reserved.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
